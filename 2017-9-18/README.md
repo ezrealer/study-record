@@ -1,4 +1,4 @@
-September 18, 2017 9:09 AM# R可视化
+# R可视化(September 18, 2017 9:09 AM)
 ##### 1. 安装rstudio
 参考文章： (http://www.linuxidc.com/Linux/2016-07/133509.htm)
 * 先从Rstudio的官网下载自己系统的安装文件：(http://www.rstudio.com/products/rstudio/download/)
