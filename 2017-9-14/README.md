@@ -33,6 +33,7 @@ $ conda install -c conda-forge basemap-data-hires
 
 我猜想可能是geos、Basemap、版本差距大，不兼容，所以换低版本试一试。
 结果我在geos-3.4.2-0.tar.bz2的README.md文件中发现：
+
 ![不支持python](007.png)
 
 所以我又去下载了一个低于3.0版本的geos，结果又出错了：
