@@ -42,6 +42,7 @@ pzx@pzx-CW65S:~/wp-calypso$ npm start
 ![](img/007.png)
 
 打开浏览器，输入 (http://calypso.localhost:3000) ,**运行失败**：
+
 **浏览器：**
 
 ![brower err](img/009.png)
@@ -54,13 +55,14 @@ pzx@pzx-CW65S:~/wp-calypso$ npm start
 ```
 To run Calypso locally, you'll need to add 127.0.0.1 calypso.localhost to your hosts file, and load the app at http://calypso.localhost:3000 instead of just localhost. This is necessary, because when running locally Calypso is using the remote version of the WordPress.com REST API, which allows only certain origins via our current authentication methods.
 ```
-在本地运行时，要把 `127.0.0.1 calypso.localhost` 添加到`Hosts`文件中**（September 26, 2017 3:19 PM 实验室有人来检查，暂停去实验室）**  **(September 26, 2017 4:21 PM 暂停结束，继续)**
+在本地运行时，要把 `127.0.0.1 calypso.localhost` 添加到`Hosts`文件中**（September 26, 2017 3:19 PM 实验室有人来检查，暂停去实验室）**  , **(September 26, 2017 4:21 PM 暂停结束，继续)**
 
 在我的`hosts`文件中加入 `127.0.0.1 calypso.localhost`：
 
 ![change hosts](img/010.png)
 
 重启电脑，再次运行试试。（**Reboot** September 26, 2017 4:25 PM）
+
 **再次运行：**
 
 ![err2](img/011.png)
@@ -81,11 +83,13 @@ To run Calypso locally, you'll need to add 127.0.0.1 calypso.localhost to your h
 结果又报错了：
 
 ![](img/015.png)
+
 我又在网上查阅了一下，发现好像要使用`vagrant`,比较麻烦，我果断放弃了，无意间我又点开了这个网站 (https://developer.wordpress.com/calypso/),这次我点击这个按钮：
 
 ![](img/016.png)
 
 下载了一个Ubuntu的安装包，很快就安装好了，这是运行界面：
+
 **这是APP的样子：**
 
 ![](img/017.png)
