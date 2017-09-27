@@ -55,7 +55,7 @@ pzx@pzx-CW65S:~/wp-calypso$ npm start
 ```
 To run Calypso locally, you'll need to add 127.0.0.1 calypso.localhost to your hosts file, and load the app at http://calypso.localhost:3000 instead of just localhost. This is necessary, because when running locally Calypso is using the remote version of the WordPress.com REST API, which allows only certain origins via our current authentication methods.
 ```
-在本地运行时，要把 `127.0.0.1 calypso.localhost` 添加到`Hosts`文件中**（September 26, 2017 3:19 PM 实验室有人来检查，暂停去实验室）**  , **(September 26, 2017 4:21 PM 暂停结束，继续)**
+在本地运行时，要把 `127.0.0.1 calypso.localhost` 添加到`Hosts`文件中（**September 26, 2017 3:19 PM 实验室有人来检查，暂停去实验室**）, (**September 26, 2017 4:21 PM 暂停结束，继续**)
 
 在我的`hosts`文件中加入 `127.0.0.1 calypso.localhost`：
 
