@@ -9,7 +9,9 @@
 	"must_not":[], //不满足数组中的查询
 }
 ```
+
 **例子：**查询`lagou/testjob`下面“salary”为10的记录
+
 ```Json
 GET lagou/testjob/_Search
 {
