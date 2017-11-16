@@ -9,7 +9,7 @@
 	"must_not":[], //不满足数组中的查询
 }
 ```
-**例子：**查询`lagou/testjob`下面“salary”为10的记录
+<b>例子：</b>查询`lagou/testjob`下面“salary”为10的记录
 ```Json
 GET lagou/testjob/_Search
 {
@@ -30,7 +30,7 @@ GET lagou/testjob/_Search
 
 ![](img/001.png)
 
-**例子：**查询`mooc/mooc_info`中课程类型是`云计算`的课程，结果只显示前两个
+<b>例子：</b>查询`mooc/mooc_info`中课程类型是`云计算`的课程，结果只显示前两个
 ```Json
 GET mooc/mooc_info/_search
 {
@@ -51,7 +51,7 @@ GET mooc/mooc_info/_search
 
 ![](img/002.png)
 
-**例子：**多个关键词进行查询
+<b>例子：</b>多个关键词进行查询
 ```json
 GET lagou/testjob/_search
 {
@@ -76,7 +76,7 @@ GET lagou/testjob/_search
 ![](img/004.png)
 
 ### 2 分析器的解析结果
-**语法：**
+<b>语法：</b>
 ```json
 GET _analyze
 {
@@ -86,7 +86,7 @@ GET _analyze
     
 }
 ```
-**例子：**使用`ik_smart`进行分词
+<b>例子：</b> 使用`ik_smart`进行分词
 ```Json
 GET _analyze
 {
@@ -97,7 +97,7 @@ GET _analyze
 
 ![](img/006.png)
 
-**例子：**使用`ik_max_word`进行分词：
+<b>例子：</b>使用`ik_max_word`进行分词：
 ```Json
 GET _analyze
 {
@@ -109,7 +109,7 @@ GET _analyze
 ![](img/007.png)
 
 ### 3 bool组合过滤查询
-**例子：**查询薪资等于20或者工作为Python的工作，排除薪资为30的
+<b> 例子：</b>查询薪资等于20或者工作为Python的工作，排除薪资为30的
 ```Json
 GET lagou/testjob/_search
 {
@@ -130,7 +130,7 @@ GET lagou/testjob/_search
 ![](img/005.png)
 
 ### 4 嵌套查询
-**例子：**查询*`title为Python`*或*`django并且salary为30`*
+<b>例子：</b>查询*`title为Python`*或*`django并且salary为30`*
 ```Json
 GET lagou/testjob/_search
 {
