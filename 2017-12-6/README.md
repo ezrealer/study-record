@@ -10,6 +10,7 @@
 ## 1 Pytracemalloc
 
 <p style="text-indent: 2em">对于基本类型，可以通过sys.getsizeof()来查看对象占用的内存大小。以下是在64位Linux下的一些结果：</p>
+
 ```python
 import sys
 sys.getsizeof(1)
@@ -18,6 +19,7 @@ sys.getsizeof(())
 sys.getsizeof({})
 sys.getsizeof(True)
 ```
+
 <b style="color:red">结果：</b>
 
 ![](img/002.png)
